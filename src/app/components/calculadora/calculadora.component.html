@@ -1,0 +1,26 @@
+<!-- calculator.component.html -->
+
+<div>
+    <input type="text" [value]="input" readonly />
+    <br />
+    <button (click)="handleButtonClick('1')">1</button>
+    <button (click)="handleButtonClick('2')">2</button>
+    <button (click)="handleButtonClick('3')">3</button>
+    <button (click)="handleButtonClick('+')">+</button>
+    <br />
+    <button (click)="handleButtonClick('4')">4</button>
+    <button (click)="handleButtonClick('5')">5</button>
+    <button (click)="handleButtonClick('6')">6</button>
+    <button (click)="handleButtonClick('-')">-</button>
+    <br />
+    <button (click)="handleButtonClick('7')">7</button>
+    <button (click)="handleButtonClick('8')">8</button>
+    <button (click)="handleButtonClick('9')">9</button>
+    <button (click)="handleButtonClick('*')">*</button>
+    <br />
+    <button (click)="handleButtonClick('0')">0</button>
+    <button (click)="handleClear()">C</button>
+    <button (click)="handleCalculate()">=</button>
+    <button (click)="handleButtonClick('/')">/</button>
+  </div>
+  
